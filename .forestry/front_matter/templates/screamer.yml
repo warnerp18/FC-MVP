@@ -1,0 +1,13 @@
+---
+label: Screamer
+hide_body: false
+is_partial: false
+fields:
+- type: blocks
+  label: Screamer Theme
+  name: screamer_theme
+  template_types:
+  - theme-options
+- type: text
+  name: screamer_text_field
+  label: Screamer Text Field
