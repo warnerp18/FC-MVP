@@ -1,0 +1,36 @@
+---
+label: Section Heading
+hide_body: false
+is_partial: true
+fields:
+- type: select
+  name: heading_size
+  config:
+    source:
+      type: simple
+    options:
+    - large
+    - medium
+    - small
+  label: Heading Size
+  description: 'Choose the size of heading you''d like. Refer to Radius for examples:
+    http://radius.fundingcircle.tech/M2DM/rules/typography/section%20headings/'
+- type: select
+  name: heading_html_tag
+  config:
+    source:
+      type: simple
+    options:
+    - h1
+    - h2
+    - h3
+    - h4
+    - h5
+    - h6
+  label: Heading HTML Tag
+  description: Choose 1 option for heading type. H1's should only be used once per
+    page
+- type: text
+  name: section_heading
+  label: Section Heading
+  description: This is the text that will be displayed to users
