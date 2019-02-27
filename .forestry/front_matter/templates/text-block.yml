@@ -1,0 +1,18 @@
+---
+label: Text Block
+hide_body: false
+is_partial: true
+fields:
+- type: blocks
+  name: text_block_section_heading
+  label: Text Block Section Heading
+  template_types:
+  - section-heading
+- type: blocks
+  name: text_block_lead_paragraph
+  label: Text Block Lead Paragraph
+  template_types:
+  - lead-paragraph
+- type: textarea
+  name: text_block_paragraph
+  label: Text Block Paragraph
