@@ -16,3 +16,8 @@ fields:
 - type: textarea
   name: text_block_paragraph
   label: Text Block Paragraph
+- type: blocks
+  name: text_block_cta
+  label: Text Block CTA
+  template_types:
+  - cta
