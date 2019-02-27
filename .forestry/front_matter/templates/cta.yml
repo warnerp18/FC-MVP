@@ -1,0 +1,42 @@
+---
+label: CTA
+hide_body: false
+is_partial: true
+fields:
+- type: boolean
+  name: cta_combo
+  label: CTA Combo
+  description: If this is a CTA Combo you need to turn this "on" or to "true"
+- type: boolean
+  name: inverse_cta
+  label: Inverse CTA
+  description: If you want to use the inverse colors of the CTA turn this button "on"
+    or to "true". This shouldn't be used in conjunction with the CTA Combo
+- type: text
+  label: Primary CTA Label
+  name: primary_cta_label
+  description: 'Add a label for the CTA. ex: "Apply now"'
+- type: boolean
+  name: secondary_cta
+  label: Secondary CTA
+  description: Is this suppose to be a Secondary CTA? Turn "on" or to "true".
+- type: text
+  name: primary_cta_link
+  label: Primary CTA Link
+  description: add the url for the link here. If internal link use /us/something/.
+    If external link add in entire url. i.e. https://www.google.com/
+- type: field_group
+  name: cta_secondary_links
+  label: CTA Secondary Links
+  description: Use this group if you are trying to create a CTA Combo with primary
+    and secondary links
+  fields:
+  - type: text
+    name: cta_secondary_label
+    label: CTA Secondary Label
+    description: Add label for CTA here. i.e. "Apply now"
+  - type: text
+    description: add the url for the link here. If internal link use /us/something/.
+      If external link add in entire url. i.e. https://www.google.com/
+    label: CTA Secondary Link
+    name: cta_secondary_link
