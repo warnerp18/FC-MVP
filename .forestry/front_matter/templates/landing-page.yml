@@ -18,5 +18,5 @@ fields:
   template_types:
   - sidekick
 pages:
-- home-page.md
 - index.md
+- home-page.md

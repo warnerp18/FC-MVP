@@ -17,16 +17,32 @@ services:
   heading: BioTech
   icon: "/uploads/2017/11/13/biotech.png"
 sub_heading: Engineering and Health Sciences
-textline: | 
+textline: |
   Belkirk College of Engineering
-  
+
   Ora et Labora
 hero_button:
   text: Learn more
   href: "/about"
 show_news: true
+hero:
+- template: hero
+  add_sidekick: true
+  hero_type: Brand
+  hero_selection: ace
+  hero_title:
+  - template: section-heading
+    heading_size: large
+    heading_html_tag: h1
+    section_heading: TAKE YOUR BUSINESS FURTHER
+  hero_paragraph:
+  - template: lead-paragraph
+    lead_paragraph: Connect with one of our account managers today to get a business
+      loan that's right for you.
+sidekick: []
 menu:
   navigation:
     identifier: _index
     weight: 1
+
 ---
