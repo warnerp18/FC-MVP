@@ -84,6 +84,7 @@ screamer:
 - template: screamer
   screamer_theme:
   - template: theme-options
+    theming_options: contrast
 menu:
   navigation:
     identifier: _index
