@@ -17,5 +17,10 @@ fields:
     max: '1'
   template_types:
   - sidekick
+- type: blocks
+  name: text_block
+  label: Text Block
+  template_types:
+  - text-block
 pages:
 - index.md
