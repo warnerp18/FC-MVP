@@ -82,6 +82,8 @@ text_block:
     we focus on your loan. Taking your business to the next level has never been easier.
 screamer:
 - template: screamer
+  screamer_theme:
+  - template: theme-options
 menu:
   navigation:
     identifier: _index
