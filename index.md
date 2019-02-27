@@ -80,6 +80,8 @@ text_block:
   text_block_paragraph: text block paragraph With an easy online application, a dedicated
     account manager, and a fast decision, you can stay focused on your business while
     we focus on your loan. Taking your business to the next level has never been easier.
+screamer:
+- template: screamer
 menu:
   navigation:
     identifier: _index
