@@ -22,5 +22,10 @@ fields:
   label: Text Block
   template_types:
   - text-block
+- type: blocks
+  name: screamer
+  label: Screamer
+  template_types:
+  - screamer
 pages:
 - index.md
