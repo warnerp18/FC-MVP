@@ -1,7 +1,7 @@
 ---
 label: Screamer
 hide_body: false
-is_partial: false
+is_partial: true
 fields:
 - type: blocks
   label: Screamer Theme
@@ -11,3 +11,18 @@ fields:
 - type: text
   name: screamer_text_field
   label: Screamer Text Field
+- type: field_group
+  name: stat_and_label
+  label: Stat & Label
+  fields:
+  - type: blocks
+    name: screamer_stat_and_label
+    label: Screamer Stat & Label
+    template_types:
+    - stat
+    - label
+- type: blocks
+  name: screamer_cta
+  label: Screamer CTA
+  template_types:
+  - cta
