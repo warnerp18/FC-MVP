@@ -57,6 +57,18 @@ sidekick:
     - Borrow between $25K — $500K
     - Repay in 6 months — 5 years
     - Repay in 6 months — 5 years
+text_block:
+- template: text-block
+  text_block_section_heading:
+  - template: section-heading
+    heading_size: large
+    heading_html_tag: h2
+    section_heading: We’re here to help you grow
+  text_block_lead_paragraph:
+  - template: lead-paragraph
+    lead_paragraph: With an easy online application, a dedicated account manager,
+      and a fast decision, you can stay focused on your business while we focus on
+      your loan. Taking your business to the next level has never been easier.
 menu:
   navigation:
     identifier: _index
