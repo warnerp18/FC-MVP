@@ -1,0 +1,56 @@
+---
+label: Hero
+hide_body: false
+is_partial: true
+fields:
+- type: boolean
+  name: add_sidekick
+  label: Add Sidekick
+  description: If you want the sidekick on the hero select this.
+- type: select
+  name: hero_type
+  config:
+    source:
+      type: simple
+    options:
+    - Brand
+    - Functional
+    - Editorial
+  label: Hero Type
+  description: 'There are multiple Hero types. See Radius docs for more info: http://radius.fundingcircle.tech/M2DM/components/hero/'
+- type: select
+  name: hero_selection
+  config:
+    source:
+      type: simple
+    options:
+    - ace
+    - ace-b
+    - aztec
+    - besame
+    - bob
+    - dave
+    - forth
+    - koshland
+    - larry
+    - night
+    - philosophie
+    - red-sweater
+    - viola
+    - winter-lake
+  label: Hero Selection
+  description: Select the name you want to appear as the hero
+- type: blocks
+  label: Hero Title
+  name: hero_title
+  config:
+    max: '1'
+  template_types:
+  - section-heading
+- type: blocks
+  name: hero_paragraph
+  label: Hero Paragraph
+  config:
+    max: '1'
+  template_types:
+  - lead-paragraph
