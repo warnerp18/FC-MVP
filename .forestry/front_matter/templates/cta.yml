@@ -12,10 +12,6 @@ fields:
   label: Inverse CTA
   description: If you want to use the inverse colors of the CTA turn this button "on"
     or to "true". This shouldn't be used in conjunction with the CTA Combo
-- type: text
-  label: Primary CTA Label
-  name: primary_cta_label
-  description: 'Add a label for the CTA. ex: "Apply now"'
 - type: boolean
   name: secondary_cta
   label: Secondary CTA
@@ -24,6 +20,10 @@ fields:
   name: text_link
   label: Text Link
   description: If this should look like a text link then turn this "on" or to "true"
+- type: text
+  label: Primary CTA Label
+  name: primary_cta_label
+  description: 'Add a label for the CTA. ex: "Apply now"'
 - type: text
   name: primary_cta_link
   label: Primary CTA Link
