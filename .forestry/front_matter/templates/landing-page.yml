@@ -2,7 +2,21 @@
 label: Home Page
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: blocks
+  name: hero
+  label: Hero
+  config:
+    max: '1'
+  template_types:
+  - hero
+- type: blocks
+  name: sidekick
+  label: Sidekick
+  config:
+    max: '1'
+  template_types:
+  - sidekick
 pages:
 - home-page.md
 - index.md
