@@ -39,7 +39,16 @@ hero:
   - template: lead-paragraph
     lead_paragraph: Connect with one of our account managers today to get a business
       loan that's right for you.
-sidekick: []
+sidekick:
+- template: sidekick
+  feature_list_items:
+  - template: feature-list
+    list_item:
+    - Rates from 4.99%1 per year
+    - Apply online in 10 minutes
+    - Borrow between $25K — $500K
+    - Repay in 6 months — 5 years
+    - Repay in 6 months — 5 years
 menu:
   navigation:
     identifier: _index
