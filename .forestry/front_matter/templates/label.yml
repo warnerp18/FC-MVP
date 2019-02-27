@@ -1,0 +1,19 @@
+---
+label: Label
+hide_body: false
+is_partial: true
+fields:
+- type: select
+  name: label_style
+  config:
+    source:
+      type: simple
+    options:
+    - default
+    - small
+    - accent
+  label: Label Style
+  description: 'See Radius for more information: http://radius.fundingcircle.tech/M2DM/rules/typography/label/'
+- type: text
+  name: label_text
+  label: Label Text
