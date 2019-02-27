@@ -1,0 +1,14 @@
+---
+label: SideKick
+hide_body: false
+is_partial: true
+fields:
+- type: boolean
+  name: add_trustpilot
+  label: Add TrustPilot
+  description: If you want the TrustPilot in the sidekick then you must select this
+- type: blocks
+  name: feature_list_items
+  label: Feature List Items
+  template_types:
+  - feature-list
