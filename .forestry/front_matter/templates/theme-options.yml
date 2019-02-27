@@ -1,0 +1,20 @@
+---
+label: Theme Options
+hide_body: false
+is_partial: true
+display_field: theming_options
+fields:
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - default
+    - contrast
+    - accent
+    - brand
+    - brand-light
+    - impact
+  label: Theming Options
+  name: theming_options
+  description: See Radius documentation for more info http://radius.fundingcircle.tech/M2DM/developer/utility-classes/themes/
