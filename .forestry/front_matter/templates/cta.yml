@@ -20,6 +20,10 @@ fields:
   name: secondary_cta
   label: Secondary CTA
   description: Is this suppose to be a Secondary CTA? Turn "on" or to "true".
+- type: boolean
+  name: text_link
+  label: Text Link
+  description: If this should look like a text link then turn this "on" or to "true"
 - type: text
   name: primary_cta_link
   label: Primary CTA Link
