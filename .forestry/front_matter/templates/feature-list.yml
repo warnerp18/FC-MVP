@@ -1,0 +1,8 @@
+---
+label: Feature List
+hide_body: false
+is_partial: true
+fields:
+- type: list
+  name: list_item
+  label: List Item
