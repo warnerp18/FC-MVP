@@ -54,3 +54,10 @@ fields:
     max: '1'
   template_types:
   - lead-paragraph
+- type: blocks
+  name: cta
+  label: CTA
+  config:
+    max: '1'
+  template_types:
+  - cta
