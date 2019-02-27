@@ -39,6 +39,14 @@ hero:
   - template: lead-paragraph
     lead_paragraph: Connect with one of our account managers today to get a business
       loan that's right for you.
+  cta:
+  - template: cta
+    cta_combo: true
+    primary_cta_label: Hero Primary CTA
+    primary_cta_link: "/hero/primary/cta/"
+    cta_secondary_links:
+      cta_secondary_label: Hero Secondary CTA
+      cta_secondary_link: "/hero/secondary/cta/"
 sidekick:
 - template: sidekick
   feature_list_items:
