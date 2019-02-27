@@ -77,6 +77,9 @@ text_block:
     cta_secondary_links:
       cta_secondary_label: Text Block Secondary CTA
       cta_secondary_link: "/textblock/secondary/cta"
+  text_block_paragraph: text block paragraph With an easy online application, a dedicated
+    account manager, and a fast decision, you can stay focused on your business while
+    we focus on your loan. Taking your business to the next level has never been easier.
 menu:
   navigation:
     identifier: _index
