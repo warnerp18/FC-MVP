@@ -69,6 +69,14 @@ text_block:
     lead_paragraph: With an easy online application, a dedicated account manager,
       and a fast decision, you can stay focused on your business while we focus on
       your loan. Taking your business to the next level has never been easier.
+  text_block_cta:
+  - template: cta
+    cta_combo: true
+    primary_cta_label: Text Block Primary CTA
+    primary_cta_link: "/textblock/primary/cta"
+    cta_secondary_links:
+      cta_secondary_label: Text Block Secondary CTA
+      cta_secondary_link: "/textblock/secondary/cta"
 menu:
   navigation:
     identifier: _index
