@@ -1,0 +1,22 @@
+---
+label: Quote
+hide_body: false
+is_partial: true
+fields:
+- type: select
+  name: quote_variant
+  config:
+    source:
+      type: simple
+    options:
+    - default
+    - trustpilot-author
+    - large
+    - shrink
+  label: Quote Variant
+- type: text
+  name: quote_content
+  label: Quote Content
+- type: text
+  name: quote_author
+  label: Quote Author
