@@ -102,6 +102,16 @@ screamer:
     cta_secondary_links:
       cta_secondary_label: Screamer Secondary CTA
       cta_secondary_link: "/screamer/secondary/cta"
+case_study:
+- template: case-study
+  full_width_case_study_image_name: aztec
+  case_study_quote:
+  - template: quote
+    quote_variant: large
+    quote_content: My account manager walked me through the process. It was very seamless
+      and painless.
+    quote_author: Peter Koshland from Koshland Pharm borrowed $150,000 to purchase
+      inventory in bulk before his supplier increased prices.
 menu:
   navigation:
     identifier: _index
