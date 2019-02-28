@@ -38,4 +38,5 @@ fields:
   template_types:
   - trust-block
 pages:
+- Homepage.md
 - index.md
