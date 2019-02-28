@@ -11,6 +11,24 @@ fields:
     source:
       type: simple
     options:
+    - middle
+    - bottom
+  label: Vertical Positioning
+  name: vertical_positioning
+- type: select
+  name: horizontal_positioning
+  config:
+    source:
+      type: simple
+    options:
+    - left
+    - right
+  label: Horizontal Positioning
+- type: select
+  config:
+    source:
+      type: simple
+    options:
     - aztec
     - celina
     - celina-b
