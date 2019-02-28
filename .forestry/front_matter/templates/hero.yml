@@ -64,3 +64,10 @@ fields:
 - type: file
   name: test
   label: test
+- type: blocks
+  name: hero_cta_one
+  label: Hero CTA one
+  template_types:
+  - feature-list
+  - label
+  - cta
