@@ -32,5 +32,10 @@ fields:
   name: case_study
   template_types:
   - case-study
+- type: blocks
+  name: trust_block
+  label: Trust Block
+  template_types:
+  - trust-block
 pages:
 - index.md
