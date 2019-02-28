@@ -112,6 +112,8 @@ case_study:
       and painless.
     quote_author: Peter Koshland from Koshland Pharm borrowed $150,000 to purchase
       inventory in bulk before his supplier increased prices.
+  vertical_positioning: middle
+  horizontal_positioning: right
 menu:
   navigation:
     identifier: _index
