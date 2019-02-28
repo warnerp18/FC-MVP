@@ -114,6 +114,15 @@ case_study:
       inventory in bulk before his supplier increased prices.
   vertical_positioning: middle
   horizontal_positioning: right
+trust_block:
+- template: trust-block
+  trust_block_theme:
+  - template: theme-options
+    theming_options: accent
+  full_width_trust_block:
+    media_element: "/uploads/2019/02/28/forbes.svg"
+    text_content: In the small business sector, Funding Circle is rapidly emerging
+      as a strong player with global ambitions.
 menu:
   navigation:
     identifier: _index
