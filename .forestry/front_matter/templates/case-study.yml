@@ -1,0 +1,40 @@
+---
+label: Case Study
+hide_body: false
+is_partial: true
+fields:
+- type: boolean
+  name: half_width_case_study
+  label: Half Width Case Study
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - aztec
+    - celina
+    - celina-b
+    - celina-c
+    - electric
+    - hair-colour
+    - kate
+    - koshland
+    - koshland-b
+    - philosophie
+  label: Full Width Case Study Image Name
+  name: full_width_case_study_image_name
+- type: select
+  name: half_width_case_study_image_name
+  config:
+    source:
+      type: simple
+    options:
+    - ace
+    - philosophie
+    - viola
+  label: Half Width Case Study Image Name
+- type: blocks
+  name: case_study_quote
+  label: Case Study Quote
+  template_types:
+  - quote
