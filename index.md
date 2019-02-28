@@ -88,12 +88,7 @@ screamer:
   screamer_text_field: 62,000 businesses have financed their goals by borrowing $8.6
     billion through Funding Circle.
   stat_and_label:
-    screamer_stat_and_label:
-    - template: stat
-      stat_text: "$8.6 billion"
-    - template: label
-      label_style: default
-      label_text: Lent to businesses globally
+    screamer_stat_and_label: []
   screamer_cta:
   - template: cta
     cta_combo: true
