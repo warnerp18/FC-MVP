@@ -1,0 +1,16 @@
+{% assign trustBlock = page.trust_block[0] %}
+
+{%- capture quoteContent -%}
+{{trustBlock.full_width_trust_block.text_content}}
+{%- endcapture -%}
+
+<section class="trust-block trust-block--full-width u-theme-{{trustBlock.trust_block_theme[0].theming_options}}">
+  <div class="trust-block__wrapper">
+    <div class="trust-block__media">
+      <img src="{{trustBlock.full_width_trust_block.media_element}}">
+    </div>
+    <div class="trust-block__content">
+      {% include quote.html quote_content=quoteContent  %}
+    </div>
+  </div>
+</section>

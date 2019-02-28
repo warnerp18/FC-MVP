@@ -1,0 +1,28 @@
+{% assign caseStudy = page.case_study[0] %}
+{% assign caseStudySize = 'small'%}
+{% assign caseStudyImage = caseStudy.half_width_case_study_image_name %}
+{% if caseStudy.half_width_case_study==nil %}
+  {% assign caseStudySize = 'large' %}
+  {% assign caseStudyImage = caseStudy.full_width_case_study_image_name %}
+{% endif %}
+
+{%- capture quoteType -%}
+{{caseStudy.case_study_quote[0].quote_variant}}
+{%- endcapture -%}
+
+{%- capture quoteContent -%}
+{{caseStudy.case_study_quote[0].quote_content}}
+{%- endcapture -%}
+
+{%- capture quoteAuthor -%}
+{{caseStudy.case_study_quote[0].quote_author}}
+{%- endcapture -%}
+
+<section class="case-study case-study--{{caseStudySize}} case-study--{{caseStudy.vertical_positioning}} case-study--{{caseStudy.horizontal_positioning}} case-study--{{caseStudyImage}}">
+  <div class="case-study__image"></div>
+  <div class="case-study__inner">
+    <div class="case-study__content">
+      {% include quote.html quote_type=quoteType quote_content=quoteContent quote_author=quoteAuthor %}
+    </div>
+  </div>
+</section>

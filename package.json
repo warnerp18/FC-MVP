@@ -1,0 +1,22 @@
+{
+  "name": "fc-mvp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warnerp18/FC-MVP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warnerp18/FC-MVP/issues"
+  },
+  "devDependencies": {
+    "radius": "git+ssh://git@github.com/FundingCircle/radius.git#8.0.0"
+  },
+  "homepage": "https://github.com/warnerp18/FC-MVP#readme"
+}

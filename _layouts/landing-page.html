@@ -7,23 +7,63 @@ layout: default
 	e.g index.md and about.md
 {% endcomment %}
 
-{% assign stripped_content = content | strip_newlines %}
-{% if content and stripped_content != "" %}
-<section class="about">
-	<div class="container pure-g">
-		<div class="pure-u-1">
-			<div class="content content-narrow">
-				{{ content }}
-			</div>
-		</div>
-	</div>
-</section>
-{% endif %}
 
-{% include services.html %}
+{% assign hero = page.hero[0] %}
 
-{% include news.html %}
+{%- capture sideKick -%}
+{{hero.add_sidekick}}
+{%- endcapture -%}
 
-{% include partners.html %}
+{%- capture heroType -%}
+{{hero.hero_type}}
+{%- endcapture -%}
 
-{% include staff.html %}
+{%- capture heroSelection -%}
+{{hero.hero_selection}}
+{%- endcapture -%}
+
+{%- capture headingSize -%}
+{{hero.hero_title[0].heading_size}}
+{%- endcapture -%}
+
+{%- capture headingTag -%}
+{{hero.hero_title[0].heading_html_tag}}
+{%- endcapture -%}
+
+{%- capture heroTitle -%}
+{{hero.hero_title[0].section_heading}}
+{%- endcapture -%}
+
+{%- capture heroParagraph -%}
+{{hero.hero_paragraph[0].lead_paragraph}}
+{%- endcapture -%}
+
+{%- capture heroCTAPrimaryLabel -%}
+{{hero.cta[0].primary_cta_label}}
+{%- endcapture -%}
+
+{%- capture heroCTAPrimaryLink -%}
+{{hero.cta[0].primary_cta_link}}
+{%- endcapture -%}
+
+{%- capture heroCTASecondaryLabel -%}
+{{hero.cta[0].cta_secondary_links.cta_secondary_label}}
+{%- endcapture -%}
+
+{%- capture heroCTASecondaryLink -%}
+{{hero.cta[0].cta_secondary_links.cta_secondary_link}}
+{%- endcapture -%}
+
+{%- capture featureListItems -%}
+{{page.sidekick[0].feature_list_items[0].list_item}}
+{%- endcapture -%}
+
+{% include hero.html side_kick=sideKick hero_type=heroType hero_selection=heroSelection heading_size=headingSize heading_tag=headingTag hero_title=heroTitle hero_paragraph=heroParagraph cta_primary_label=heroCTAPrimaryLabel cta_primary_link=heroCTAPrimaryLink cta_secondary_label=heroCTASecondaryLabel cta_secondary_link=heroCTASecondaryLink %}
+
+{% include text-block.html %}
+
+{% include screamer.html %}
+
+{% include case-study.html %}
+
+{% include trust-block.html %}

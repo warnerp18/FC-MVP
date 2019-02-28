@@ -1,0 +1,72 @@
+{% assign textBlock = page.text_block[0] %}
+
+{% assign textBlockSectionHeading = textBlock.text_block_section_heading[0] %}
+
+{% assign textBlockLead = textBlock.text_block_lead_paragraph[0].lead_paragraph %}
+
+{% assign textBlockParagraph = textBlock.text_block_paragraph %}
+
+{% assign textBlockCTA = textBlock.text_block_cta[0] %}
+
+{%- capture textBlockHeadingTag -%}
+{{textBlock.heading_type}}
+{%- endcapture -%}
+
+{%- capture sectionHeading -%}
+{{textBlockSectionHeading.section_heading}}
+{%- endcapture -%}
+
+{%- capture sectionHeadingSize -%}
+{{textBlockSectionHeading.heading_size}}
+{%- endcapture -%}
+
+
+{%- capture sectionHeadingTag -%}
+{{textBlockSectionHeading.heading_html_tag}}
+{%- endcapture -%}
+
+{%- capture textBlockLeadParagraph -%}
+{{textBlockLead}}
+{%- endcapture -%}
+
+{%- capture isTextBlockLeadParagraph -%}
+{{textBlock.is_text_block_lead_paragraph}}
+{%- endcapture -%}
+
+{%- capture isTextBlockLeadParagraph -%}
+{{textBlock.is_text_block_lead_paragraph}}
+{%- endcapture -%}
+
+{%- capture isCTACombo -%}
+{{textBlockCTA.cta_combo}}
+{%- endcapture -%}
+
+{%- capture ctaPrimaryLink -%}
+{{textBlockCTA.primary_cta_link}}
+{%- endcapture -%}
+
+{%- capture ctaPrimaryLabel -%}
+{{textBlockCTA.primary_cta_label}}
+{%- endcapture -%}
+
+{%- capture ctaSecondaryLink -%}
+{{textBlockCTA.cta_secondary_links.cta_secondary_link}}
+{%- endcapture -%}
+
+{%- capture ctaSecondaryLabel -%}
+{{textBlockCTA.cta_secondary_links.cta_secondary_label}}
+{%- endcapture -%}
+
+<section class="text-block">
+  {% include section-heading.html heading=sectionHeading tag=sectionHeadingTag heading_size=sectionHeadingSize %}
+  {%- if textBlockLead -%}
+  {% include lead-paragraph.html leadParagraph=textBlockLead %}
+  {%- endif -%}
+  {%- if textBlock.text_block_paragraph -%}
+  <p class="text-block__paragraph">{{textBlockParagraph}}</p>
+  {%- endif -%}
+
+  {%- if textBlockCTA -%}
+    {% include cta.html is_cta_combo=isCTACombo cta_primary_link=CTAPrimaryLink cta_primary_label=ctaPrimaryLabel cta_secondary_link=ctaSecondaryLink cta_secondary_label=ctaSecondaryLabel %}
+  {%- endif -%}
+</section>

@@ -1,0 +1,5 @@
+<ul class="hero-sidekick__column-primary hero-sidekick__content-grid feature-list u-color-white">
+  {% for list_item in page.sidekick[0].feature_list_items[0].list_item %}
+    <li class="feature-list__item">{{list_item}}</li>
+  {%endfor %}
+</ul>
