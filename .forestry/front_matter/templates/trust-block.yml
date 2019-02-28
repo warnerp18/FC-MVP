@@ -1,0 +1,40 @@
+---
+label: Trust Block
+hide_body: false
+is_partial: true
+fields:
+- type: blocks
+  name: trust_block_theme
+  label: Trust Block Theme
+  template_types:
+  - theme-options
+- type: field_group
+  name: full_width_trust_block
+  label: Full Width Trust Block
+  fields:
+  - type: file
+    name: media_element
+    label: Media Element
+  - type: text
+    name: text_content
+    label: Text Content
+- type: field_group
+  label: One to One Grid
+  name: one_to_one_grid
+  fields:
+  - type: text
+    name: text_content
+    label: Text Content
+  - type: file
+    name: media_element
+    label: Media Element
+  - type: blocks
+  - type: blocks
+    label: Right Side Component
+    name: right_side_component
+    template_types:
+    - stat
+    - label
+    - lead-paragraph
+    - quote
+    - cta
