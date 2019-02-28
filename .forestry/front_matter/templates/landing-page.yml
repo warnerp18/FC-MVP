@@ -27,5 +27,10 @@ fields:
   label: Screamer
   template_types:
   - screamer
+- type: blocks
+  label: Case Study
+  name: case_study
+  template_types:
+  - case-study
 pages:
 - index.md
