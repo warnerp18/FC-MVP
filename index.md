@@ -93,6 +93,14 @@ screamer:
       stat_text: "$8.6 billion"
     - template: label
       label_text: Lent to businesses globally
+  screamer_cta:
+  - template: cta
+    cta_combo: true
+    primary_cta_label: Screamer Primary CTA
+    primary_cta_link: "/screamer/primary/cta"
+    cta_secondary_links:
+      cta_secondary_label: Screamer Secondary CTA
+      cta_secondary_link: "/screamer/secondary/cta"
 menu:
   navigation:
     identifier: _index
