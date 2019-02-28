@@ -77,6 +77,5 @@ trust_block:
   - template: theme-options
     theming_options: default
 date: 2019-02-28 22:49:57 +0000
-published: false
 
 ---
