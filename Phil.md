@@ -23,6 +23,5 @@ screamer: []
 case_study: []
 trust_block: []
 date: 2019-02-28 23:03:50 +0000
-published: false
 
 ---
