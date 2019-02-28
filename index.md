@@ -47,6 +47,11 @@ hero:
     cta_secondary_links:
       cta_secondary_label: Hero Secondary CTA
       cta_secondary_link: "/hero/secondary/cta/"
+  hero_cta_one:
+  - template: label
+    label_style: small
+    label_text: label
+  - template: cta
 sidekick:
 - template: sidekick
   feature_list_items:
